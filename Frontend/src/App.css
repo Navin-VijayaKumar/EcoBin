@@ -1,4 +1,9 @@
-* {
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,10 +22,10 @@
   gap: 2rem;
 }
 
-.title-con{ display: flex; align-items: start; justify-content: start; width: 100%; align-items: start; }
+.title-con{ display: flex; align-items: start; justify-content: start;align-items: start; padding: 20px; width: 90%;}
 
 .input-feild {
-  margin-top: 20%;
+  margin-top: 10%;
   max-width: 650px;
   min-width: 600px;
   height: 350px;
@@ -46,6 +51,7 @@
 .upload-icon {
   font-size: 4rem;
   color: #4cafef;
+  background-color: transparent;
   margin-bottom: 12px;
   transition: transform 0.3s ease;
 }
@@ -67,4 +73,18 @@
 }
 .title span{
   font-family:monospace;
+}
+.output 
+{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 60%;
+  background-color: rgb(25, 24, 24);
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 12px;
+  border: white 2px solid;
+  color: white;
+  padding: 30px;
 }

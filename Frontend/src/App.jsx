@@ -11,12 +11,10 @@ function App() {
 
   return (
     <div className="con">
-      {/* Header */}
       <div className="title-con">
         <h1 className='title'><span className='l'>Eco</span><span className='m'>Bin</span></h1>
       </div>
 
-      {/* Upload Box */}
       <label className="input-feild">
         <input 
           type="file" 
@@ -26,6 +24,11 @@ function App() {
         <FaCloudUploadAlt className="upload-icon" />
         <p className="upload-text">{file ? file.name : "Upload Image"}</p>
       </label>
+        <div className="output">
+
+        <h1>Output:</h1>
+        <h1>Bio Degradable</h1>
+        </div>
     </div>
   )
 }
